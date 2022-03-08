@@ -1,5 +1,5 @@
 from discord.ext import commands
-from myserver import server
+from myserver import server_on
 
 TOKEN = "MASUKKAN TOKEN BOT DISINI" # ganti dengan token bot anda
 
@@ -13,4 +13,5 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send('Hello, {}! Jangan lupa subscribenya ya :)'.format(ctx.author.name.title()))
 
+server_on()
 bot.run(TOKEN)
