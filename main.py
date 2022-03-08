@@ -1,8 +1,7 @@
-from config import token
 from discord.ext import commands
 from myserver import server
 
-TOKEN = token()
+TOKEN = "MASUKKAN TOKEN BOT DISINI" # ganti dengan token bot anda
 
 bot = commands.Bot(command_prefix='!')
 
