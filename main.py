@@ -1,9 +1,10 @@
+import discord
 from discord.ext import commands
 from myserver import server_on
 
-TOKEN = "MASUKKAN TOKEN BOT DISINI" # ganti dengan token bot anda
+TOKEN = "MASUKKAN_BOT_TOKEN_ANDA" # ganti dengan token bot anda
 
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
