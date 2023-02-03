@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from myserver import server_on
 
-TOKEN = "MASUKKAN_BOT_TOKEN_ANDA" # ganti dengan token bot anda
+TOKEN = "MTA3MTEyMTMzMTY0MDM1MjgzOQ.GBbGQN.RZTp0wa3X-EHl9wbpOPLL9ylNeC2ZK4x5VMRok" # ganti dengan token bot anda
 
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
@@ -15,4 +15,4 @@ async def hello(ctx):
     await ctx.send('Hello, {}! Jangan lupa subscribenya ya :)'.format(ctx.author.name.title()))
 
 server_on()
-bot.run(TOKEN)
+bot.run(MTA3MTEyMTMzMTY0MDM1MjgzOQ.GBbGQN.RZTp0wa3X-EHl9wbpOPLL9ylNeC2ZK4x5VMRok)
